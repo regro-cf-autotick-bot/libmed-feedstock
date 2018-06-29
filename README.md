@@ -20,10 +20,10 @@ Current build status
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-libmed-green.svg)](https://anaconda.org/conda-forge/libmed)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libmed.svg)](https://anaconda.org/conda-forge/libmed)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/libmed.svg)](https://anaconda.org/conda-forge/libmed)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libmed.svg)](https://anaconda.org/conda-forge/libmed)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libmed-green.svg)](https://anaconda.org/conda-forge/libmed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libmed.svg)](https://anaconda.org/conda-forge/libmed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libmed.svg)](https://anaconda.org/conda-forge/libmed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libmed.svg)](https://anaconda.org/conda-forge/libmed) |
 
 Installing libmed
 =================
