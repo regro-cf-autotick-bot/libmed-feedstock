@@ -16,25 +16,24 @@ source:
         - swig.patch
 
 build:
-    number: 0
-    features:
-        - vc14  # [win and py>=35]
+    number: 1
     skip: true  # [py<35]
 
 requirements:
     build:
-        - toolchain
-        - vc 14   # [win]
         - ninja
         - cmake
-        - hdf5 1.8.18.*
-        - zlib 1.2*
+        - {{ compiler('fortran') }}
+        - {{ compiler('c') }}
+        - {{ compiler('cxx') }}
+    host:
+        - hdf5 1.8*
+        - zlib
         - python
         - swig
     run:
-        - vc 14  # [win]
-        - hdf5 1.8.18.*
-        - zlib 1.2*
+        - hdf5
+        - zlib
         - python
 
 
