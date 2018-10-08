@@ -1,11 +1,15 @@
 c_compiler:
-- toolchain_c
+- vs2015
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
 cxx_compiler:
-- toolchain_cxx
+- vs2015
 fortran_compiler:
-- toolchain_fort
+- flang
 hdf5:
-- 1.10.2
+- 1.10.3
 pin_run_as_build:
   hdf5:
     max_pin: x.x.x
@@ -15,6 +19,10 @@ pin_run_as_build:
   zlib:
     max_pin: x.x
 python:
-- '3.5'
+- '3.7'
+zip_keys:
+- - python
+  - c_compiler
+  - cxx_compiler
 zlib:
 - '1.2'
