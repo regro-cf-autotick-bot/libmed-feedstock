@@ -1,11 +1,11 @@
 {% set name = "libmed" %}
-{% set version = "3.3.1" %}
-{% set sha256 = "dd631ef813838bc7413ff0dd6461d7a0d725bcfababdf772ece67610a8d22588" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "5d1c50be0e8ef1a0e16db5e99925b51036ee3f30a5102de654eab29bec809013" %}
 
 
 package:
     name: libmed
-    version: 3.3.1
+    version: "4.0.0"
 
 source:
     fn: {{ name }} {{ version }}.tar.gz
@@ -16,7 +16,7 @@ source:
         - swig.patch
 
 build:
-    number: 1001
+    number: 1000
     skip: true  # [py<35]
 
 requirements:
