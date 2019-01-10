@@ -12,9 +12,6 @@ source:
     url: http://files.salome-platform.org/Salome/other/med-{{ version }}.tar.gz
     sha256: {{ sha256  }}
 
-    patches:
-        - swig.patch
-
 build:
     number: 1000
     skip: true  # [py<35]
